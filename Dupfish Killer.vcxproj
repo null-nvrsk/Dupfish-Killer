@@ -89,7 +89,11 @@
     <QtUic Include="dupfishkiller.ui" />
     <QtMoc Include="dupfishkiller.h" />
     <ClCompile Include="dupfishkiller.cpp" />
+    <ClCompile Include="info.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="info.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

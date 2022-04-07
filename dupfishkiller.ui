@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>480</width>
+    <width>548</width>
     <height>195</height>
    </rect>
   </property>
@@ -31,7 +31,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="leDirPath"/>
       </item>
       <item>
        <widget class="QPushButton" name="btnOpenFileDialog">
@@ -53,26 +53,33 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QPushButton" name="btnStop">
+        <property name="text">
+         <string>Stop</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
     <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <widget class="QCheckBox" name="checkBox">
+       <widget class="QCheckBox" name="cbSubdir">
         <property name="text">
          <string>сканировать подпапки</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QCheckBox" name="checkBox_2">
+       <widget class="QCheckBox" name="cbNewOnly">
         <property name="text">
          <string>сканировать только новые файды</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="lblLastStart">
         <property name="text">
          <string>Предыдущий запуск: </string>
         </property>
@@ -106,7 +113,7 @@
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="lblFilesTotal">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -129,7 +136,7 @@
        </widget>
       </item>
       <item row="0" column="3">
-       <widget class="QLabel" name="label_6">
+       <widget class="QLabel" name="lblSizeTotal">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -152,7 +159,7 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QLabel" name="label_10">
+       <widget class="QLabel" name="lblFilesSaved">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -175,7 +182,7 @@
        </widget>
       </item>
       <item row="1" column="3">
-       <widget class="QLabel" name="label_7">
+       <widget class="QLabel" name="lblSizeSaved">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -198,7 +205,7 @@
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QLabel" name="label_14">
+       <widget class="QLabel" name="lblFilesDeleted">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -221,7 +228,7 @@
        </widget>
       </item>
       <item row="2" column="3">
-       <widget class="QLabel" name="label_11">
+       <widget class="QLabel" name="lblSizeDeleted">
         <property name="font">
          <font>
           <weight>75</weight>
